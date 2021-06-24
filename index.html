@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="">Nhập số nguyên</label>
+    <input type="text" id="idNhapSoNguyen" />
+    <button onclick="luuTru()">Lưu trữ</button>
+    <br />
+    <br />
+    <span>Các số nguyên đã nhập là :</span>
+    <p id="idLuuTru"></p>
+    <div>
+      <!-- câu 1 -->
+      <button onclick="tinhTong()">Tính tổng các số dương</button>
+      <p>Câu 1:</p>
+      <p id="idKqTong"></p>
+      <hr />
+      <!-- câu 2 -->
+      <button onclick="demSoDuong()">Đếm số dương</button>
+      <p>Câu 2:</p>
+      <p id="idKqDemSoDuong"></p>
+      <hr />
+      <!-- câu 3 -->
+      <button onclick="timSoNhoNhat()">Tìm số nhỏ nhất</button>
+      <p>Câu 3:</p>
+      <p id="idKqSoNhoNhat"></p>
+      <hr />
+      <!-- câu 4 -->
+      <button onclick="timSoDuongNhoNhat()">
+        Tìm số <strong> dương </strong>nhỏ nhất
+      </button>
+      <p>Câu 4:</p>
+      <p id="idKqSoDuongNhoNhat"></p>
+      <hr />
+      <!-- câu 5 -->
+
+      <button onclick="timSoChanCuoi()">Tìm số chẵn cuối cùng</button>
+      <p>Câu 5:</p>
+      <p id="idKqSoChanCuoi"></p>
+      <hr />
+    
+    
+      <!-- câu 6 -->
+      <button onclick="doiViTriHaiGiaTri()">
+        Đổi 2 giá trị trong mảng theo vị trí
+      </button>
+      <p>
+        Câu 6:Đổi chỗ 2 vị trí của phần tử thứ 2 và 4 với nhau (arr[1] và
+        arr[3])
+      </p>
+      <p id="idKqDoiViTri"></p>
+      <hr />
+
+      <!-- câu 7 -->
+      <button onclick="sapXepTang()">Sắp xếp tăng</button>
+      <button onclick="sapXepGiam()">Sắp xếp giảm</button>
+      <p>Câu 7: sắp xếp chuỗi theo thứ tự tăng dần</p>
+      <p id="idKqSapXepTang"></p>
+      <p id="idKqSapXepGiam"></p>
+
+      <hr />
+      <!-- câu 8 -->
+      <button onclick="timSoNguyenToDau()">Tìm</button>
+      <p>
+        Câu 8:Tìm số nguyên tố đầu tiên trong mảng, nếu không có số nguyên tố
+        thì trả về -1
+      </p>
+      <p id="idKqNguyenToDau"></p>
+
+<hr>
+
+      <!-- câu 9 -->
+      <button onclick="demSoNguyen()">Đếm số nguyên</button>
+      <p>Câu 9: đếm số nguyên dương trong mảng mới</p>
+      <p id="idKqDemSoNguyen"></p>
+
+<hr>
+      <!-- câu 10 -->
+      <button onclick="soSanhAmDuong()">So sánh</button>
+      <p>Câu 10: So sánh số lượng số âm số dượng ,số nào nhiều hơn</p>
+      <p id="idKqAmDuong"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
